@@ -1,0 +1,118 @@
+@import "~bootstrap/scss/bootstrap";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+a {
+  list-style: none;
+  color: whitesmoke;
+}
+
+img {
+  object-fit: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.homepage {
+  max-height: 91vh;
+  object-fit: cover;
+}
+
+li {
+  list-style: none;
+}
+
+.nav-item {
+  display: flex;
+  margin-right: 3rem;
+}
+
+.nav-items {
+  padding-left: 10px;
+  font-weight: bold;
+  padding-top: 8px;
+  font-size: 16px;
+}
+
+.nav-link {
+  color: whitesmoke;
+}
+
+.nav-name {
+  margin-left: 3rem;
+  color: whitesmoke;
+}
+
+.font-weight {
+  font-weight: bolder;
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+// menu section
+
+.menu-section {
+  background-color: rgba(250, 183, 183, 0.644);
+}
+.menu-tabs{
+  background-color: black;
+  padding: 0 15px;
+  width: 100%;
+  text-align: center;
+}
+.menu-section .section-title{
+  margin-bottom: 40px;
+}
+.menu-tab-item{
+  font-size: 17px;
+  font-family: inherit;
+  text-transform: capitalize;
+  border: none;
+  background-color: transparent;
+  font-weight: 500;
+  color: antiquewhite;
+  cursor: pointer;
+  margin: 0 10px 10px;
+  display: inline-block;
+}
+.menu-tab-item-content {
+  display: none;
+}
+.menu-tab-content.active{
+  display: flex;
+}
+.menu-item{
+  width: 50%;
+  padding: 20px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-item-title{
+  display: flex;
+  align-items: center;
+}
+.menu-item-title h3 {
+  font-size: 16px;
+  text-transform: capitalize;
+  transition: color 0.3s ease;
+}
+.menu-item-title img {
+  max-width: 100px;
+  margin-right: 15px;
+  max-width: calc(100%-80px);
+}
+.menu-item-price{
+  font-size: 16px;
+  font-weight: 500;
+  color: antiquewhite;
+  transition: color 0.3s ease;
+}
