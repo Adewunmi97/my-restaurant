@@ -1,6 +1,6 @@
 import 'bootstrap';
 import './app.scss';
-import img from './assets/images/myimage.jpg';
+import '../assets/images';
 import renderNav from './nav';
 import renderHome from './home';
 import renderMenu from './menu';
