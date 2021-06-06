@@ -10,6 +10,7 @@ module.exports = {
     rules: [
       {
         test: /\.(scss)$/,
+        test: /\.(jpg|png)$/,
         use: [
           {
             loader: 'style-loader',
@@ -22,6 +23,9 @@ module.exports = {
           },
           {
             loader: 'sass-loader',
+          },
+          {
+            loader: 'url-loader',
           },
         ],
       },

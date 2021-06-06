@@ -1,7 +1,8 @@
 const contactform = () => (
-    `<div class="container contact-form mt-5">
+    `<section class="min-vh-100 menu-section">
+    <div class="container contact-form p-3">
 
-      <form method="post">
+      <form method="post" class="mt-4">
           <h3>Drop Us a Message</h3>
          <div class="row">
               <div class="col-md-6">
@@ -15,7 +16,7 @@ const contactform = () => (
                       <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
                   </div>
                   <div class="form-group">
-                      <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                      <input type="submit" name="btnSubmit" class="btnContact menu-section font-bold" value="Send Message" />
                   </div>
               </div>
               <div class="col-md-6">
@@ -25,7 +26,8 @@ const contactform = () => (
               </div>
           </div>
       </form>
-    </div>`);
+    </div>
+    </section>`);
 
   const createContactPage = () => {
     const contactPage = document.createElement('div');

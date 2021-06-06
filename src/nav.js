@@ -23,7 +23,7 @@ const createNavLink = (name) => {
 
     const navname = document.createElement('h1');
     navname.classList.add('nav-name');
-    navname.innerText = 'Jolly Dishes';
+    navname.innerText = "Ade's Restaurant";
 
     const navLinks = createNavLinks();
     nav.appendChild(navname);

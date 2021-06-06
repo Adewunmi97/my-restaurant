@@ -1,8 +1,10 @@
 import 'bootstrap';
 import './app.scss';
+import img from './assets/images/myimage.jpg';
 import renderNav from './nav';
 import renderHome from './home';
 import renderMenu from './menu';
+import renderTeam from './team';
 import renderContact from './contact';
 
 const main = document.querySelector('#content');
@@ -36,6 +38,9 @@ const switchPage = () => {
           break;
         case 'Menu':
           changePage(renderMenu());
+          break;
+          case 'Team':
+          changePage(renderTeam());
           break;
         default:
           changePage(renderContact());
