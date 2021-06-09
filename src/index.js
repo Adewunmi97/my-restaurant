@@ -1,6 +1,5 @@
 import 'bootstrap';
 import './app.scss';
-import '../assets/images';
 import renderNav from './nav';
 import renderHome from './home';
 import renderMenu from './menu';
@@ -39,7 +38,7 @@ const switchPage = () => {
         case 'Menu':
           changePage(renderMenu());
           break;
-          case 'Team':
+        case 'Team':
           changePage(renderTeam());
           break;
         default:

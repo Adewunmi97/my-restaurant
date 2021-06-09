@@ -1,5 +1,5 @@
 const contactform = () => (
-    `<section class="min-vh-100 menu-section">
+  `<section class="min-vh-100 menu-section">
     <div class="container contact-form p-3">
 
       <form method="post" class="mt-4">
@@ -29,10 +29,10 @@ const contactform = () => (
     </div>
     </section>`);
 
-  const createContactPage = () => {
-    const contactPage = document.createElement('div');
-    contactPage.insertAdjacentHTML('beforeend', contactform());
-    return contactPage;
-  };
+const createContactPage = () => {
+  const contactPage = document.createElement('div');
+  contactPage.insertAdjacentHTML('beforeend', contactform());
+  return contactPage;
+};
 
-  export default createContactPage;
+export default createContactPage;

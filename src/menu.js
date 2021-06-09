@@ -1,5 +1,4 @@
-const ourMenu =
-    `<section class= "menu-section sec-padding" id="our-menu">
+const ourMenu = `<section class= "menu-section sec-padding" id="our-menu">
     <div class = "container">
     <div class="row">
     <div class = "section-title">
@@ -141,9 +140,9 @@ const ourMenu =
     </section>`;
 
 const renderMenu = () => {
-    const container = document.createElement('div');
-    container.insertAdjacentHTML('beforeend', ourMenu);
-    return container;
-  };
+  const container = document.createElement('div');
+  container.insertAdjacentHTML('beforeend', ourMenu);
+  return container;
+};
 
-  export default renderMenu;
+export default renderMenu;
