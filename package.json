@@ -1,0 +1,53 @@
+{
+  "name": "my-restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adewunmi97/my-restaurant.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "adewunmi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adewunmi97/my-restaurant/issues"
+  },
+  "homepage": "https://github.com/Adewunmi97/my-restaurant#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "autoprefixer": "^10.2.6",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^4.3.0",
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-react": "^7.22.0",
+    "exports-loader": "^1.1.1",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^4.3.0",
+    "sass-loader": "^10.2.0",
+    "style-loader": "^1.3.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.19.0",
+    "stylus-loader": "^6.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
