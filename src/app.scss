@@ -235,15 +235,6 @@ nav {
   justify-content: space-between;
 }
 
-.menu-item::after {
-  content: '';
-  position: absolute;
-  left: 15px;
-  right: 15px;
-  bottom: 0;
-  border-bottom: 2px dashed black;
-}
-
 .menu-item-title {
   display: flex;
   align-items: center;
