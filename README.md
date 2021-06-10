@@ -7,7 +7,7 @@ This is part of the Restuarant Project in [The Odin Project's](https://www.theod
 
 # Screenshot
 
-![image](https://user-images.githubusercontent.com/60876346/121369974-38998680-c934-11eb-9411-a43efae2d14b.png)
+![image](https://user-images.githubusercontent.com/60876346/121541317-191b6000-c9ff-11eb-8eea-db7a625d4169.png)
 
 
 ## Built With
