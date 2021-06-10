@@ -3,7 +3,9 @@
 This is part of the Restuarant Project in [The Odin Project's](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page?ref=lnav) Javascript Curriculum.
 
 
-- [Live Demo Link](https://adewunmi97.github.io/my-restaurant/)
+- [Live Demo Link](https://raw.githack.com/Adewunmi97/my-restaurant/feature/dist/index.html)
+
+# Screenshot
 
 ![image](https://user-images.githubusercontent.com/60876346/121369974-38998680-c934-11eb-9411-a43efae2d14b.png)
 

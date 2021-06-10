@@ -2,7 +2,7 @@ const contactform = () => (
   `<section class="min-vh-100 menu-section">
     <div class="container contact-form p-3">
 
-      <form method="post" class="mt-4">
+      <form method="post" class="mt-5 pt-5">
           <h3>Drop Us a Message</h3>
          <div class="row">
               <div class="col-md-6">

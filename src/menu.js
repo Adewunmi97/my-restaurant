@@ -1,8 +1,8 @@
 const ourMenu = `<section class= "menu-section sec-padding" id="our-menu">
     <div class = "container">
     <div class="row">
-    <div class = "section-title">
-    <h2 data-title="order now" class="align-item-center">our menu</h2>
+    <div class = "section-title data mt-5">
+    <h3>our menu</h3>
     </div>
     </div>
     <div class="row">
@@ -88,48 +88,6 @@ const ourMenu = `<section class= "menu-section sec-padding" id="our-menu">
     <div class="menu-item-title">
     <img src="https://allnigerianfoods.com/wp-content/uploads/indomie-noodles.jpg" alt="">
     <h3>lunch item</h3>
-    </div>
-    <div class="menu-item-price">
-    #1500
-    </div>
-    </div>
-    </div>
-
-    <div class="row menu-tab-content active" id="dinner">
-    <div class="menu-item">
-    <div class="menu-item-title">
-    <img src="https://allnigerianfoods.com/wp-content/uploads/indomie-noodles.jpg" alt="">
-    <h3>dinner item</h3>
-    </div>
-    <div class="menu-item-price">
-    #1500
-    </div>
-    </div>
-
-    <div class="menu-item">
-    <div class="menu-item-title">
-    <img src="https://allnigerianfoods.com/wp-content/uploads/indomie-noodles.jpg" alt="">
-    <h3>dinner item</h3>
-    </div>
-    <div class="menu-item-price">
-    #1500
-    </div>
-    </div>
-
-    <div class="menu-item">
-    <div class="menu-item-title">
-    <img src="https://allnigerianfoods.com/wp-content/uploads/indomie-noodles.jpg" alt="">
-    <h3>dinner item</h3>
-    </div>
-    <div class="menu-item-price">
-    #1500
-    </div>
-    </div>
-
-    <div class="menu-item">
-    <div class="menu-item-title">
-    <img src="https://allnigerianfoods.com/wp-content/uploads/indomie-noodles.jpg" alt="">
-    <h3>dinner item</h3>
     </div>
     <div class="menu-item-price">
     #1500

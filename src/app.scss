@@ -1,21 +1,20 @@
 @import "~bootstrap/scss/bootstrap";
 
 //global styles
-// * {
-//   margin: 0;
-//   padding: 0;
-//   box-sizing: border-box;
-//   outline: none;
-// }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
 
 body {
   font-size: 16px;
   line-height: 1.5;
   -webkit-tap-highlight-color: transparent;
-  color: transparent;
   font-family: 'poppins', sans-serif;
   font-weight: 300;
-  color: var(--white-light);
+  overflow-x: hidden;
 }
 
 a {
@@ -81,6 +80,10 @@ h3 h4 h5 h6 {
   min-height: 100vh;
 }
 
+.data {
+  margin: 0 auto;
+}
+
 // animation key-frames
 @keyframes zoomInOut {
   0%,
@@ -143,6 +146,7 @@ nav {
 }
 
 .home-section .home-bg {
+  height: 100vh;
   position: absolute;
   left: 0;
   top: 0;
@@ -166,7 +170,6 @@ nav {
 }
 
 .home-text h1 {
-  font-family: var(--cursive-font);
   font-size: 60px;
   line-height: 75px;
   margin: 0 0 5px;
@@ -255,7 +258,6 @@ nav {
 .menu-item-title img {
   max-width: 100px;
   margin-right: 15px;
-  max-width: calc(100%-80px);
 }
 
 .menu-item-price {
@@ -293,6 +295,7 @@ nav {
   left: 30px;
   top: 30px;
   bottom: 0;
+  color: black;
   transform: translateX(50%);
   transition: all 0.3s ease;
   pointer-events: none;
@@ -312,5 +315,6 @@ nav {
 
 .team-item:hover .team-item-info {
   transform: translateY(-15px);
+  color: rgba(116, 16, 49, 0.623);
   background-color: rgba(250, 183, 183, 0.644);
 }

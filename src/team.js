@@ -2,12 +2,12 @@ const teamPage = () => (`
 <section class="team-section" id="team">
     <div class="container">
         <div class="row">
-            <div class="section-title">
-                <h2 data-title="team">Our Chefs</h2>
+            <div class="section-title data mt-5">
+                <h3 data-title="team">Our Chefs</h3>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row mt-4">
             <div class="team-item">
                 <img src="./assets/images/chef1.jpg" alt="" />
                 <div class="team-item-info">
